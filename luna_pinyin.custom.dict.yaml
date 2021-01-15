@@ -1,0 +1,11 @@
+---
+name: luna_pinyin.custom
+version: "2021.1.14"
+sort: by_weight
+use_preset_vocabulary: true
+# 此处为扩充词库（基本）默认链接载入的词库
+import_tables:
+  - luna_pinyin
+  - luna_pinyin.sougou
+  - custom_top
+...

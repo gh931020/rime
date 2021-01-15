@@ -1,0 +1,8 @@
+patch:
+  "style/display_tray_icon": true
+  "style/horizontal": false            #設置豎排顯示待選
+  "style/font_point": 16               #設置字體大小
+  "style/font_face": "Microsoft YaHei Mono"
+  "style/color_scheme": ink
+  app_options/photoshop.exe:
+    ascii_mode: true

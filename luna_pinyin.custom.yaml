@@ -1,0 +1,18 @@
+patch:
+  "switches/@0/reset": 1
+  "punctuator/import_preset": mysymbols
+  "recognizer/patterns/punct": "^i([A-Z|a-z]*|[0-9]|10)$"
+  engine/translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+    - table_translator@custom_phrase
+    - table_translator
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "translator/dictionary": luna_pinyin.custom
